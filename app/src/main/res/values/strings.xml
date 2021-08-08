@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">paralelo3</string>
+    <string name="intel_filmes_stream">Intel Filmes Stream</string>
+    <string name="todo">TODO</string>
+    <string name="compartilhar">Compartilhar</string>
+    <string name="voltar">Voltar</string>
+    <string name="g_nero_suspense">Gênero: Suspense</string>
+    <string name="_18">18+</string>
+    <string name="sinopse_sidney_prescott_neve_campbell_come_a_a_desconfiar_que_a_morte_de_dois_estudantes_est_relacionada_com_o_falecimento_da_sua_m_e_h_cerca_de_um_ano_enquanto_isso_os_jovens_da_pacata_cidadezinha_come_am_a_receber_liga_es_de_um_man_aco_que_faz_perguntas_sobre_filmes_de_horror_quem_erra_morre_as_perguntas_seguem_uma_l_gica_que_ser_desvendada_numa_grande_festa_escolar">Sinopse: Sidney Prescott (Neve Campbell) começa a desconfiar que a morte de dois estudantes está relacionada com o falecimento da sua mãe, há cerca de um ano. Enquanto isso, os jovens da pacata cidadezinha começam a receber ligações de um maníaco que faz perguntas sobre filmes de horror. Quem erra, morre. As perguntas seguem uma lógica que será desvendada numa grande festa escolar.</string>
+    <string name="p_nico">Pânico</string>
+    <string name="assistir">Assistir</string>
+    <string name="assistir2">Assistir</string>
+    <string name="assitir_online">Assitir Online</string>
+    <string name="download">Download</string>
+    <string-array name="spinner1">
+        <item>720p</item>
+        <item>1080(HD)</item>
+        <item>Ultra HD/4K</item>
+
+    </string-array>
+
+
+
+</resources>

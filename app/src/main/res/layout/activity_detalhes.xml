@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="teste"
+            type="String" />
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        tools:context=".view.activity.DetalhesActivity">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/poster"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_alignParentBottom="true"
+            android:scaleType="fitXY"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/poster" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonReturn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:background="#c1cdcd"
+            android:text="@string/voltar"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/sinopse" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonShare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#c1cdcd"
+            android:text="@string/compartilhar"
+            android:textColor="@color/black"
+            android:layout_marginStart="10dp"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintLeft_toRightOf="@id/buttonReturn"
+            app:layout_constraintTop_toBottomOf="@id/sinopse"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonWatch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#c1cdcd"
+            android:text="@string/assistir2"
+            android:textColor="@color/black"
+            android:layout_marginStart="10dp"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintLeft_toRightOf="@id/buttonShare"
+            app:layout_constraintTop_toBottomOf="@id/sinopse"/>
+
+
+
+
+
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/genero"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:text="@string/g_nero_suspense"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/titleText"
+            app:layout_constraintWidth_default="wrap" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:text="@string/_18"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@id/genero"
+            app:layout_constraintTop_toTopOf="@id/genero" />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:text="@string/_18"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@id/genero"
+            app:layout_constraintTop_toTopOf="@id/genero" />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/sinopse"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="@string/sinopse_sidney_prescott_neve_campbell_come_a_a_desconfiar_que_a_morte_de_dois_estudantes_est_relacionada_com_o_falecimento_da_sua_m_e_h_cerca_de_um_ano_enquanto_isso_os_jovens_da_pacata_cidadezinha_come_am_a_receber_liga_es_de_um_man_aco_que_faz_perguntas_sobre_filmes_de_horror_quem_erra_morre_as_perguntas_seguem_uma_l_gica_que_ser_desvendada_numa_grande_festa_escolar"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/genero"
+
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+
+            android:id="@+id/titleText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal"
+            android:text="@string/p_nico"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/poster" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
